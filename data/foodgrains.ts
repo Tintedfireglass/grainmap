@@ -1,0 +1,246 @@
+import type { Foodgrain } from "@/types/foodgrain"
+
+export const foodgrainData: Foodgrain[] = [
+  {
+    name: "Wheat (Emmer)",
+    latitude: 35.1264,
+    longitude: 39.0253,
+    icon: "Wheat",
+    description:
+      "One of the first domesticated grains, emmer wheat was cultivated in the Fertile Crescent. It was a staple in ancient Egypt and Rome before modern wheat varieties were developed.",
+    year: "10,000 BCE",
+    region: "Fertile Crescent",
+    yearNumber: 10000,
+  },
+  {
+    name: "Barley",
+    latitude: 33.2232,
+    longitude: 43.6793,
+    icon: "Wheat",
+    description:
+      "Barley was one of the earliest cultivated grains, particularly important in Mesopotamia. It was used for bread and beer production in ancient civilizations.",
+    year: "10,000 BCE",
+    region: "Fertile Crescent",
+    yearNumber: 10000,
+  },
+  {
+    name: "Kamut (Khorasan Wheat)",
+    latitude: 30.5852,
+    longitude: 36.2384,
+    icon: "Wheat",
+    description:
+      "Kamut, also known as Khorasan wheat, is an ancient grain believed to have originated in the Fertile Crescent. It is prized for its large kernels and nutty flavor.",
+    year: "4,000 BCE",
+    region: "Fertile Crescent",
+    yearNumber: 4000,
+  },
+  {
+    name: "Spelt",
+    latitude: 48.1351,
+    longitude: 11.582,
+    icon: "Wheat",
+    description:
+      "Spelt is an ancient wheat species that was cultivated in Europe and the Near East. It is known for its nutty flavor and high nutritional value.",
+    year: "5,000 BCE",
+    region: "Central Europe",
+    yearNumber: 5000,
+  },
+  {
+    name: "Rice (Asian)",
+    latitude: 29.563,
+    longitude: 114.3054,
+    icon: "Sprout",
+    description:
+      "Rice domestication began in the Yangtze River valley in China. It became the foundation of diet and culture across East and Southeast Asia.",
+    year: "7,000 BCE",
+    region: "Yangtze River Valley",
+    yearNumber: 7000,
+  },
+  {
+    name: "African Rice",
+    latitude: 8.4606,
+    longitude: -11.7799,
+    icon: "Sprout",
+    description:
+      "African rice was domesticated independently of Asian rice in West Africa and is still grown in some regions today.",
+    year: "3,500 BCE",
+    region: "West Africa",
+    yearNumber: 3500,
+  },
+  {
+    name: "Maize (Corn)",
+    latitude: 19.4326,
+    longitude: -99.1332,
+    icon: "Banana",
+    description:
+      "Maize was domesticated from teosinte in Mexico and became a staple food throughout the Americas. It was unknown to the Old World until after Columbus.",
+    year: "9,000 BCE",
+    region: "Mesoamerica",
+    yearNumber: 9000,
+  },
+  {
+    name: "Quinoa",
+    latitude: -16.409,
+    longitude: -71.5375,
+    icon: "Leaf",
+    description:
+      "Quinoa was domesticated by pre-Columbian civilizations in the Andean region. It was called 'the mother grain' by the Inca and thrives at high altitudes.",
+    year: "3,000 BCE",
+    region: "Andean Highlands",
+    yearNumber: 3000,
+  },
+  {
+    name: "Amaranth",
+    latitude: -13.1631,
+    longitude: -72.545,
+    icon: "Leaf",
+    description:
+      "Amaranth was domesticated in Central and South America by the Aztecs and Incas. It is a highly nutritious pseudocereal.",
+    year: "4,000 BCE",
+    region: "Central America",
+    yearNumber: 4000,
+  },
+  {
+    name: "Wild Rice",
+    latitude: 46.7296,
+    longitude: -94.6859,
+    icon: "Sprout",
+    description:
+      "Wild rice is native to North America and was a staple food for indigenous peoples around the Great Lakes region.",
+    year: "3,000 BCE",
+    region: "North America",
+    yearNumber: 3000,
+  },
+  {
+    name: "Sorghum",
+    latitude: 12.8628,
+    longitude: 30.2176,
+    icon: "Flower",
+    description:
+      "Sorghum was domesticated in northeastern Africa and spread throughout the continent. It's highly drought-resistant and remains an important crop in arid regions.",
+    year: "4,000 BCE",
+    region: "Sudan/Ethiopia",
+    yearNumber: 4000,
+  },
+  {
+    name: "Pearl Millet (Bajra)",
+    latitude: 23.6,
+    longitude: -6.6,
+    icon: "Wheat",
+    description:
+      "Pearl millet is one of the oldest cultivated millets, domesticated in the Sahel region of West Africa, particularly in what is now northern Mali. It is highly drought-resistant and remains a staple food across the Sahel, adapted to arid and challenging growing conditions.",
+    year: "2,500 BCE",
+    region: "Sahel, West Africa",
+    yearNumber: 2500,
+  },
+  {
+    name: "Little Millet",
+    latitude: 20.5937,
+    longitude: 78.9629,
+    icon: "Wheat",
+    description:
+      "Little millet is a small-seeded grain cultivated in India for thousands of years, especially in dryland areas.",
+    year: "3,000 BCE",
+    region: "India",
+    yearNumber: 3000,
+  },
+  {
+    name: "Fonio",
+    latitude: 12.6392,
+    longitude: -8.0029,
+    icon: "Wheat",
+    description:
+      "Fonio is one of Africa's oldest cereals, cultivated in West Africa for thousands of years. It is valued for its resilience and quick growth.",
+    year: "5,000 BCE",
+    region: "West Africa",
+    yearNumber: 5000,
+  },
+  {
+    name: "Teff",
+    latitude: 9.145,
+    longitude: 40.4897,
+    icon: "Leaf",
+    description:
+      "Teff is native to Ethiopia and Eritrea, where it has been cultivated for thousands of years. It is the primary ingredient in injera, a traditional Ethiopian bread.",
+    year: "4,000 BCE",
+    region: "Ethiopia",
+    yearNumber: 4000,
+  },
+  {
+    name: "Broomcorn Millet",
+    latitude: 35.8617,
+    longitude: 104.1954,
+    icon: "Wheat",
+    description:
+      "Broomcorn millet (Panicum miliaceum) was one of the earliest domesticated grains in northern China, valued for its drought resistance and quick growth. It was a staple before the widespread adoption of wheat and rice.",
+    year: "8,000 BCE",
+    region: "Northern China",
+    yearNumber: 8000,
+  },
+  {
+    name: "Foxtail Millet",
+    latitude: 40.0,
+    longitude: 112.0,
+    icon: "Wheat",
+    description:
+      "Foxtail millet was domesticated in northern China and is one of the oldest cultivated millets. It is drought-tolerant and widely grown in Asia.",
+    year: "6,000 BCE",
+    region: "Northern China",
+    yearNumber: 6000,
+  },
+  {
+    name: "Job's Tears",
+    latitude: 9.38,
+    longitude: 99.23,
+    icon: "Wheat",
+    description:
+      "Job's Tears, also known as adlay or Chinese pearl barley, is a cereal grass native to Southeast Asia. It is cultivated for its edible seeds, which are used in foods, beverages, and traditional medicine. The plant thrives in moist, warm environments and is valued both as a food grain and as animal forage.",
+    year: "4,000 BCE",
+    region: "Southeast Asia",
+    yearNumber: 4000,
+  },
+  {
+    name: "Buckwheat",
+    latitude: 27.5,
+    longitude: 100.0,
+    icon: "Leaf",
+    description:
+      "Buckwheat originated in Yunnan, China and spread to Central Asia and Europe. It is not a true cereal but is used similarly to grains.",
+    year: "4,000 BCE",
+    region: "Yunnan, China",
+    yearNumber: 4000,
+  },
+  {
+    name: "Oats",
+    latitude: 54.6872,
+    longitude: 25.2797,
+    icon: "Wheat",
+    description:
+      "Oats were first cultivated in Central Europe and were initially considered a weed in wheat and barley fields. They became a staple in cooler, wetter climates.",
+    year: "4,000 BCE",
+    region: "Central Europe",
+    yearNumber: 4000,
+  },
+  {
+    name: "Rye",
+    latitude: 50.0755,
+    longitude: 14.4378,
+    icon: "Wheat",
+    description:
+      "Rye was likely domesticated in eastern Turkey, though it may have entered cultivation as a weed in wheat and barley fields before being cultivated intentionally.",
+    year: "6,500 BCE",
+    region: "Central Europe",
+    yearNumber: 6500,
+  },
+  {
+    name: "Australian Native Grasses",
+    latitude: -23.698,
+    longitude: 133.8807,
+    icon: "Leaf",
+    description:
+      "Aboriginal Australians harvested native grass seeds such as Mitchell grass and kangaroo grass for breadmaking, making them the continent's ancient staple grains.",
+    year: "8,000 BCE (est.)",
+    region: "Australia",
+    yearNumber: 8000,
+  },
+]
